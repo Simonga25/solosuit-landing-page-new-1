@@ -21,7 +21,7 @@
   header.masthead {
     position: relative;
     background-color: #343a40;
-    background: url("../img/beverage-flower-hands-948888.jpg") no-repeat center center;
+    background: url("../img/black-and-white-blur-business-deal-1496186.jpg") no-repeat center center;
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -39,7 +39,7 @@
   
   h1 {
     font-size: 2rem;
-    text-align: bottom;
+    text-align: ;
   }
   
   @media (min-width: 768px) {
@@ -50,6 +50,13 @@
     header.masthead h1 {
       font-size: 3rem;
     }
+
+  img.navbar-logo {
+    height: 40px;
+    max-width: 100%;
+    filter: brightness(0%)
+
+  }
   
   
   .showcase .showcase-text {
@@ -141,14 +148,14 @@
 
   a.tel  {
     position: relative;
-    left: 30rem;
+    left: 25rem;
     color: #12e5d6;
 
   }
 
   a.btn-sign  {
     position: relative;
-    left: 15rem;
+    left: 12rem;
     border: 2px solid #12e5d6;
     color: #12e5d6;
     padding: 4px 12px;
@@ -179,7 +186,7 @@
     max-width: 100%; 
     border: 0px solid;
     padding: 10px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 5px 10px 5px #888888;
     margin-top: 5rem;
     border-radius: 25px;
   }
