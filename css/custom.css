@@ -20,7 +20,6 @@
   
   header.masthead {
     position: relative;
-    background-color: #343a40;
     background: url("../img/black-and-white-blur-business-deal-1496186.jpg") no-repeat center center;
     background-size: cover;
     padding-top: 8rem;
@@ -58,7 +57,11 @@
 
   }
   
-  
+  section.product-description {
+    background: black;
+}  
+
+
   .showcase .showcase-text {
     padding: 3rem;
   }
@@ -113,7 +116,6 @@
   .call-to-action {
     position: relative;
     background-color: #343a40;
-    background: url("../img/beverage-flower-hands-948888.jpg") no-repeat center center;
     background-size: cover;
     padding-top: 7rem;
     padding-bottom: 7rem;
@@ -133,7 +135,6 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
     background: #0a0b0c;
-    border-top: 2px solid;
   }
   
   .btn-primary {
@@ -173,7 +174,7 @@
     height: 50px;
     max-width: 100%; 
     margin-top: 5rem;
-    margin-left: 2rem;
+    position: center;
     
   }
 
@@ -181,16 +182,37 @@
    max-height: 50%;
   }
 
+  
   .showcase-new {
     height: 200px;
     max-width: 100%; 
     border: 0px solid;
     padding: 10px;
-    box-shadow: 5px 10px 5px #888888;
+    box-shadow: -15px 15px 	#D3D3D6;
     margin-top: 5rem;
     border-radius: 25px;
   }
 
+  .showcase-phone {
+    height: 500px;
+    max-width: 100%; 
+    padding: 10px;
+    margin-top: 5rem;
+  }
+
+  @media (max-width: 768px) {
+    .showcase-new {
+    height:100px;
+  }
+}
+
+
   section.call-to-action {
     background: black;
   }
+
+  .narrow{
+    padding: 10px;
+  }
+
+
