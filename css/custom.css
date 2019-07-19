@@ -115,7 +115,7 @@
   
   .call-to-action {
     position: relative;
-    background-color: #343a40;
+    background-color: #28292A;
     background-size: cover;
     padding-top: 7rem;
     padding-bottom: 7rem;
@@ -123,7 +123,7 @@
   
   .call-to-action .overlay {
     position: absolute;
-    background-color: #212529;
+    background-color: #28292A;
     height: 100%;
     width: 100%;
     top: 0;
@@ -134,17 +134,17 @@
   footer.footer {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background: #0a0b0c;
+    background: #28292A;
   }
   
   .btn-primary {
      /* background-color: #BDE3E5;  Highlight color*/
-    background-color:#12e5d6;
+    background-color:#0058F0;
     border: none;
   }
 
   nav.navbar {
-    background: black;
+    background: #28292A;
   }
 
   a.tel  {
@@ -216,3 +216,22 @@
   }
 
 
+  .band {
+    position: relative;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.bgImage, .boxBG {
+  background: no-repeat center center;
+  background-size: cover;
+}
+
+.greenBG {
+  color: #fff;
+  background-color: #2aa684;
+}
+
+.overlay-blue {
+  background-color: #2aa684;
+}
